@@ -4,7 +4,7 @@ const path = require('path');
 const app = express();
 
 const PORT = process.env.PORT || 3000;
-const SCAN_LIMIT = 10;
+const SCAN_LIMIT = 111;
 const FILE = 'scan-count.json';
 const FORM_URL = 'https://docs.google.com/forms/d/18LqL7Ed3v1ynObPUEtuOEFjwyuziaYmxTeJ90PNCoXg';
 
